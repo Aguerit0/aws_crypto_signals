@@ -1,0 +1,825 @@
+[2024-11-08T13:51:58.857+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:51:58.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:51:58.869+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:58.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:51:58.960+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:51:59.704+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.702+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:strata-lab-1-v03
+[2024-11-08T13:51:59.732+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.731+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:strata-lab-1-v03
+[2024-11-08T13:51:59.745+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.744+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:strata-lab-1-v03
+[2024-11-08T13:51:59.758+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.757+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:strata-lab-1-v03
+[2024-11-08T13:51:59.772+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.772+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:strata-lab-1-v03
+[2024-11-08T13:51:59.791+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.790+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:strata-lab-1-v03
+[2024-11-08T13:51:59.816+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.815+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:strata-lab-1-v03
+[2024-11-08T13:51:59.821+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:51:59.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:52:00.114+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:52:00.114+0000] {dag.py:3262} INFO - Creating ORM DAG for strata-lab-1-v03
+[2024-11-08T13:52:00.150+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:52:00.150+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:51:00+00:00, run_after=2024-11-08 13:52:00+00:00
+[2024-11-08T13:52:00.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 1.365 seconds
+[2024-11-08T13:52:31.164+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:52:31.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:52:31.169+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:52:31.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:52:31.200+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:52:31.252+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:52:31.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:52:31.296+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:52:31.296+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:51:00+00:00, run_after=2024-11-08 13:52:00+00:00
+[2024-11-08T13:52:31.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.174 seconds
+[2024-11-08T13:53:02.365+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:53:02.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:53:02.376+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:53:02.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:53:02.430+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:53:02.481+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:53:02.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:53:02.516+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:53:02.515+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:52:00+00:00, run_after=2024-11-08 13:53:00+00:00
+[2024-11-08T13:53:02.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.201 seconds
+[2024-11-08T13:53:33.465+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:53:33.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:53:33.479+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:53:33.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:53:33.517+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:53:33.579+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:53:33.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:53:33.603+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:53:33.603+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:52:00+00:00, run_after=2024-11-08 13:53:00+00:00
+[2024-11-08T13:53:33.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.187 seconds
+[2024-11-08T13:54:04.171+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:54:04.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:54:04.187+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:54:04.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:54:04.378+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:54:04.796+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:54:04.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:54:05.103+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:54:05.087+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:53:00+00:00, run_after=2024-11-08 13:54:00+00:00
+[2024-11-08T13:54:05.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 1.735 seconds
+[2024-11-08T13:54:36.785+0000] {processor.py:186} INFO - Started process (PID=347) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:54:36.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:54:36.789+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:54:36.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:54:36.892+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:54:36.919+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:54:36.919+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:54:36.947+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:54:36.947+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:53:00+00:00, run_after=2024-11-08 13:54:00+00:00
+[2024-11-08T13:54:36.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.197 seconds
+[2024-11-08T13:55:07.943+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:55:07.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:55:07.949+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:55:07.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:55:07.963+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:55:07.982+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:55:07.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:55:08.002+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:55:08.002+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:54:00+00:00, run_after=2024-11-08 13:55:00+00:00
+[2024-11-08T13:55:08.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.077 seconds
+[2024-11-08T13:55:38.356+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:55:38.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:55:38.361+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:55:38.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:55:38.399+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:55:38.434+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:55:38.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:55:38.472+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:55:38.472+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:54:00+00:00, run_after=2024-11-08 13:55:00+00:00
+[2024-11-08T13:55:38.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.145 seconds
+[2024-11-08T13:56:09.224+0000] {processor.py:186} INFO - Started process (PID=539) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:56:09.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:56:09.228+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:56:09.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:56:09.261+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:56:09.298+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:56:09.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:56:09.323+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:56:09.323+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:55:00+00:00, run_after=2024-11-08 13:56:00+00:00
+[2024-11-08T13:56:09.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.125 seconds
+[2024-11-08T13:56:39.789+0000] {processor.py:186} INFO - Started process (PID=605) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:56:39.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:56:39.794+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:56:39.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:56:39.819+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:56:39.844+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:56:39.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:56:39.869+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:56:39.869+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:55:00+00:00, run_after=2024-11-08 13:56:00+00:00
+[2024-11-08T13:56:39.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.106 seconds
+[2024-11-08T13:57:30.186+0000] {processor.py:186} INFO - Started process (PID=672) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:57:30.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:57:30.189+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:57:30.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:57:30.209+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:57:30.241+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:57:30.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:57:30.271+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:57:30.271+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:56:00+00:00, run_after=2024-11-08 13:57:00+00:00
+[2024-11-08T13:57:30.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.111 seconds
+[2024-11-08T13:58:01.302+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:58:01.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:58:01.306+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:58:01.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:58:01.332+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:58:01.368+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:58:01.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:58:01.400+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:58:01.399+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:57:00+00:00, run_after=2024-11-08 13:58:00+00:00
+[2024-11-08T13:58:01.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.120 seconds
+[2024-11-08T13:58:31.855+0000] {processor.py:186} INFO - Started process (PID=804) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:58:31.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:58:31.863+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:58:31.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:58:31.878+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:58:31.898+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:58:31.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:58:31.936+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:58:31.936+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:57:00+00:00, run_after=2024-11-08 13:58:00+00:00
+[2024-11-08T13:58:31.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.099 seconds
+[2024-11-08T13:59:35.122+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T13:59:35.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T13:59:35.131+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:59:35.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T13:59:35.214+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T13:59:35.410+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:59:35.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T13:59:35.513+0000] {logging_mixin.py:190} INFO - [2024-11-08T13:59:35.513+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:58:00+00:00, run_after=2024-11-08 13:59:00+00:00
+[2024-11-08T13:59:35.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.524 seconds
+[2024-11-08T14:00:05.977+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:00:05.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:00:05.984+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:00:05.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:00:06.013+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:00:06.045+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:00:06.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:00:06.070+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:00:06.070+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:59:00+00:00, run_after=2024-11-08 14:00:00+00:00
+[2024-11-08T14:00:06.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.118 seconds
+[2024-11-08T14:00:36.994+0000] {processor.py:186} INFO - Started process (PID=800) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:00:36.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:00:37.003+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:00:37.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:00:37.029+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:00:37.072+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:00:37.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:00:37.105+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:00:37.105+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 13:59:00+00:00, run_after=2024-11-08 14:00:00+00:00
+[2024-11-08T14:00:37.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.134 seconds
+[2024-11-08T14:01:07.883+0000] {processor.py:186} INFO - Started process (PID=1106) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:01:07.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:01:07.888+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:01:07.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:01:07.908+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:01:07.922+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:01:07.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:01:07.936+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:01:07.936+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:00:00+00:00, run_after=2024-11-08 14:01:00+00:00
+[2024-11-08T14:01:07.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.066 seconds
+[2024-11-08T14:01:38.615+0000] {processor.py:186} INFO - Started process (PID=1412) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:01:38.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:01:38.631+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:01:38.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:01:38.687+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:01:38.733+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:01:38.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:01:38.771+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:01:38.771+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:00:00+00:00, run_after=2024-11-08 14:01:00+00:00
+[2024-11-08T14:01:38.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.194 seconds
+[2024-11-08T14:45:10.983+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:45:10.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:45:11.006+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:45:11.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:45:11.341+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:45:12.159+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:45:12.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:45:12.379+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:45:12.379+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:44:00+00:00, run_after=2024-11-08 14:45:00+00:00
+[2024-11-08T14:45:12.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 1.662 seconds
+[2024-11-08T14:45:53.993+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:45:53.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:45:54.004+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:45:54.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:45:54.053+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:45:54.114+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:45:54.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:45:54.159+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:45:54.159+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:44:00+00:00, run_after=2024-11-08 14:45:00+00:00
+[2024-11-08T14:45:54.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.223 seconds
+[2024-11-08T14:46:25.275+0000] {processor.py:186} INFO - Started process (PID=791) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:46:25.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:46:25.282+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:46:25.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:46:25.310+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:46:25.344+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:46:25.344+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:46:25.415+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:46:25.415+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:45:00+00:00, run_after=2024-11-08 14:46:00+00:00
+[2024-11-08T14:46:25.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.196 seconds
+[2024-11-08T14:46:55.842+0000] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:46:55.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:46:55.857+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:46:55.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:46:55.910+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:46:55.958+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:46:55.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:46:55.985+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:46:55.985+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:45:00+00:00, run_after=2024-11-08 14:46:00+00:00
+[2024-11-08T14:46:56.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.180 seconds
+[2024-11-08T14:47:26.769+0000] {processor.py:186} INFO - Started process (PID=1383) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:47:26.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:47:26.772+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:47:26.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:47:26.782+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:47:26.797+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:47:26.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:47:26.812+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:47:26.812+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:46:00+00:00, run_after=2024-11-08 14:47:00+00:00
+[2024-11-08T14:47:26.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.060 seconds
+[2024-11-08T14:47:57.594+0000] {processor.py:186} INFO - Started process (PID=1689) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:47:57.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:47:57.596+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:47:57.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:47:57.606+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:47:57.616+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:47:57.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:47:57.632+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:47:57.632+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:46:00+00:00, run_after=2024-11-08 14:47:00+00:00
+[2024-11-08T14:47:57.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.050 seconds
+[2024-11-08T14:48:28.274+0000] {processor.py:186} INFO - Started process (PID=1995) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:48:28.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:48:28.279+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:48:28.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:48:28.317+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:48:28.355+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:48:28.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:48:28.383+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:48:28.383+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:47:00+00:00, run_after=2024-11-08 14:48:00+00:00
+[2024-11-08T14:48:28.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.135 seconds
+[2024-11-08T14:48:58.837+0000] {processor.py:186} INFO - Started process (PID=2300) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:48:58.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:48:58.841+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:48:58.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:48:58.853+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:48:58.872+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:48:58.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:48:58.905+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:48:58.904+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:47:00+00:00, run_after=2024-11-08 14:48:00+00:00
+[2024-11-08T14:48:58.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.091 seconds
+[2024-11-08T14:49:29.263+0000] {processor.py:186} INFO - Started process (PID=2606) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:49:29.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:49:29.265+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:49:29.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:49:29.273+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:49:29.286+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:49:29.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:49:29.303+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:49:29.303+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:48:00+00:00, run_after=2024-11-08 14:49:00+00:00
+[2024-11-08T14:49:29.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.055 seconds
+[2024-11-08T14:49:59.594+0000] {processor.py:186} INFO - Started process (PID=2907) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:49:59.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:49:59.596+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:49:59.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:49:59.605+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:49:59.619+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:49:59.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:49:59.635+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:49:59.635+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:48:00+00:00, run_after=2024-11-08 14:49:00+00:00
+[2024-11-08T14:49:59.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.058 seconds
+[2024-11-08T14:50:30.993+0000] {processor.py:186} INFO - Started process (PID=3213) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:50:30.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:50:30.995+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:50:30.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:50:31.004+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:50:31.019+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:50:31.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:50:31.040+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:50:31.040+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:49:00+00:00, run_after=2024-11-08 14:50:00+00:00
+[2024-11-08T14:50:31.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.064 seconds
+[2024-11-08T14:51:01.305+0000] {processor.py:186} INFO - Started process (PID=3424) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:51:01.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:51:01.307+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:51:01.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:51:01.316+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:51:01.328+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:51:01.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:51:01.342+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:51:01.342+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:50:00+00:00, run_after=2024-11-08 14:51:00+00:00
+[2024-11-08T14:51:01.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.052 seconds
+[2024-11-08T14:51:32.214+0000] {processor.py:186} INFO - Started process (PID=3690) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:51:32.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:51:32.215+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:51:32.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:51:32.227+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:51:32.244+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:51:32.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:51:32.263+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:51:32.263+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:50:00+00:00, run_after=2024-11-08 14:51:00+00:00
+[2024-11-08T14:51:32.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.065 seconds
+[2024-11-08T14:52:02.690+0000] {processor.py:186} INFO - Started process (PID=3975) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:52:02.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:52:02.694+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:52:02.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:52:02.708+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:52:02.729+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:52:02.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:52:02.759+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:52:02.759+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:51:00+00:00, run_after=2024-11-08 14:52:00+00:00
+[2024-11-08T14:52:02.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.096 seconds
+[2024-11-08T14:52:32.984+0000] {processor.py:186} INFO - Started process (PID=4280) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:52:32.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:52:32.993+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:52:32.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:52:33.008+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:52:33.039+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:52:33.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:52:33.070+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:52:33.070+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:51:00+00:00, run_after=2024-11-08 14:52:00+00:00
+[2024-11-08T14:52:33.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.110 seconds
+[2024-11-08T14:53:03.494+0000] {processor.py:186} INFO - Started process (PID=4586) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:53:03.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:53:03.496+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:53:03.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:53:03.512+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:53:03.539+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:53:03.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:53:03.561+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:53:03.561+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:52:00+00:00, run_after=2024-11-08 14:53:00+00:00
+[2024-11-08T14:53:03.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.095 seconds
+[2024-11-08T14:53:33.945+0000] {processor.py:186} INFO - Started process (PID=4891) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:53:33.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:53:33.947+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:53:33.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:53:33.965+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:53:33.988+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:53:33.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:53:34.024+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:53:34.023+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:52:00+00:00, run_after=2024-11-08 14:53:00+00:00
+[2024-11-08T14:53:34.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.106 seconds
+[2024-11-08T14:54:04.835+0000] {processor.py:186} INFO - Started process (PID=5196) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:54:04.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:54:04.837+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:54:04.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:54:04.855+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:54:04.876+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:54:04.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:54:04.905+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:54:04.905+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:53:00+00:00, run_after=2024-11-08 14:54:00+00:00
+[2024-11-08T14:54:04.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.090 seconds
+[2024-11-08T14:54:35.359+0000] {processor.py:186} INFO - Started process (PID=5502) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:54:35.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:54:35.363+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:54:35.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:54:35.381+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:54:35.413+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:54:35.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:54:35.441+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:54:35.441+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:53:00+00:00, run_after=2024-11-08 14:54:00+00:00
+[2024-11-08T14:54:35.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.108 seconds
+[2024-11-08T14:55:05.583+0000] {processor.py:186} INFO - Started process (PID=5808) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:55:05.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:55:05.586+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:55:05.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:55:05.600+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:55:05.625+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:55:05.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:55:05.646+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:55:05.646+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:54:00+00:00, run_after=2024-11-08 14:55:00+00:00
+[2024-11-08T14:55:05.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.082 seconds
+[2024-11-08T14:55:35.813+0000] {processor.py:186} INFO - Started process (PID=6116) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:55:35.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:55:35.816+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:55:35.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:55:35.838+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:55:35.870+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:55:35.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:55:35.913+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:55:35.912+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:54:00+00:00, run_after=2024-11-08 14:55:00+00:00
+[2024-11-08T14:55:35.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.132 seconds
+[2024-11-08T14:56:06.499+0000] {processor.py:186} INFO - Started process (PID=6428) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:56:06.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:56:06.501+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:56:06.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:56:06.515+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:56:06.532+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:56:06.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:56:06.549+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:56:06.549+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:55:00+00:00, run_after=2024-11-08 14:56:00+00:00
+[2024-11-08T14:56:06.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.063 seconds
+[2024-11-08T14:56:37.697+0000] {processor.py:186} INFO - Started process (PID=6737) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T14:56:37.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T14:56:37.706+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:56:37.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T14:56:37.793+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T14:56:37.874+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:56:37.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T14:56:38.119+0000] {logging_mixin.py:190} INFO - [2024-11-08T14:56:38.118+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 14:55:00+00:00, run_after=2024-11-08 14:56:00+00:00
+[2024-11-08T14:56:38.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.638 seconds
+[2024-11-08T15:02:34.044+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:02:34.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:02:34.062+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:02:34.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:02:34.295+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:02:34.439+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:02:34.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:02:34.556+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:02:34.556+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:01:00+00:00, run_after=2024-11-08 15:02:00+00:00
+[2024-11-08T15:02:34.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.642 seconds
+[2024-11-08T15:03:05.450+0000] {processor.py:186} INFO - Started process (PID=496) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:03:05.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:03:05.477+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:03:05.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:03:05.575+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:03:05.656+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:03:05.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:03:05.731+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:03:05.730+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:02:00+00:00, run_after=2024-11-08 15:03:00+00:00
+[2024-11-08T15:03:05.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.340 seconds
+[2024-11-08T15:03:36.612+0000] {processor.py:186} INFO - Started process (PID=808) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:03:36.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:03:36.614+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:03:36.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:03:36.635+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:03:36.660+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:03:36.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:03:36.687+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:03:36.687+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:02:00+00:00, run_after=2024-11-08 15:03:00+00:00
+[2024-11-08T15:03:36.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.097 seconds
+[2024-11-08T15:04:07.397+0000] {processor.py:186} INFO - Started process (PID=1120) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:04:07.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:04:07.417+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:04:07.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:04:07.464+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:04:07.538+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:04:07.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:04:07.592+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:04:07.592+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:03:00+00:00, run_after=2024-11-08 15:04:00+00:00
+[2024-11-08T15:04:07.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.301 seconds
+[2024-11-08T15:04:37.975+0000] {processor.py:186} INFO - Started process (PID=1435) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:04:37.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:04:37.983+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:04:37.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:04:38.027+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:04:38.089+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:04:38.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:04:38.140+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:04:38.139+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:03:00+00:00, run_after=2024-11-08 15:04:00+00:00
+[2024-11-08T15:04:38.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.209 seconds
+[2024-11-08T15:05:08.521+0000] {processor.py:186} INFO - Started process (PID=1744) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:05:08.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:05:08.530+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:05:08.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:05:08.563+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:05:08.597+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:05:08.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:05:08.637+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:05:08.637+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:04:00+00:00, run_after=2024-11-08 15:05:00+00:00
+[2024-11-08T15:05:08.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.157 seconds
+[2024-11-08T15:05:39.297+0000] {processor.py:186} INFO - Started process (PID=2051) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:05:39.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:05:39.303+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:05:39.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:05:39.328+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:05:39.360+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:05:39.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:05:39.378+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:05:39.378+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:04:00+00:00, run_after=2024-11-08 15:05:00+00:00
+[2024-11-08T15:05:39.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.105 seconds
+[2024-11-08T15:06:10.333+0000] {processor.py:186} INFO - Started process (PID=2358) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:06:10.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:06:10.351+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:06:10.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:06:10.389+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:06:10.438+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:06:10.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:06:10.497+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:06:10.495+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:05:00+00:00, run_after=2024-11-08 15:06:00+00:00
+[2024-11-08T15:06:10.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.226 seconds
+[2024-11-08T15:06:40.771+0000] {processor.py:186} INFO - Started process (PID=2664) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:06:40.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:06:40.775+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:06:40.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:06:40.796+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:06:40.819+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:06:40.819+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:06:40.846+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:06:40.846+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:05:00+00:00, run_after=2024-11-08 15:06:00+00:00
+[2024-11-08T15:06:40.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.093 seconds
+[2024-11-08T15:07:11.526+0000] {processor.py:186} INFO - Started process (PID=2970) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:07:11.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:07:11.529+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:07:11.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:07:11.546+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:07:11.581+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:07:11.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:07:11.605+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:07:11.605+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:06:00+00:00, run_after=2024-11-08 15:07:00+00:00
+[2024-11-08T15:07:11.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.099 seconds
+[2024-11-08T15:07:41.723+0000] {processor.py:186} INFO - Started process (PID=3276) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:07:41.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:07:41.726+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:07:41.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:07:41.751+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:07:41.776+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:07:41.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:07:41.806+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:07:41.806+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:06:00+00:00, run_after=2024-11-08 15:07:00+00:00
+[2024-11-08T15:07:41.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.102 seconds
+[2024-11-08T15:08:12.061+0000] {processor.py:186} INFO - Started process (PID=3582) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:08:12.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:08:12.069+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:08:12.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:08:12.084+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:08:12.138+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:08:12.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:08:12.178+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:08:12.178+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:07:00+00:00, run_after=2024-11-08 15:08:00+00:00
+[2024-11-08T15:08:12.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.163 seconds
+[2024-11-08T15:08:42.323+0000] {processor.py:186} INFO - Started process (PID=3880) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:08:42.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:08:42.325+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:08:42.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:08:42.334+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:08:42.343+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:08:42.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:08:42.357+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:08:42.357+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:07:00+00:00, run_after=2024-11-08 15:08:00+00:00
+[2024-11-08T15:08:42.364+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.043 seconds
+[2024-11-08T15:09:12.955+0000] {processor.py:186} INFO - Started process (PID=4129) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:09:12.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:09:12.959+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:09:12.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:09:12.975+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:09:13.003+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:09:13.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:09:13.032+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:09:13.032+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:08:00+00:00, run_after=2024-11-08 15:09:00+00:00
+[2024-11-08T15:09:13.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.104 seconds
+[2024-11-08T15:09:43.543+0000] {processor.py:186} INFO - Started process (PID=4442) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:09:43.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:09:43.545+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:09:43.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:09:43.566+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:09:43.581+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:09:43.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:09:43.601+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:09:43.601+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:08:00+00:00, run_after=2024-11-08 15:09:00+00:00
+[2024-11-08T15:09:43.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.080 seconds
+[2024-11-08T15:10:13.770+0000] {processor.py:186} INFO - Started process (PID=4748) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:10:13.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:10:13.773+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:10:13.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:10:13.796+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:10:13.816+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:10:13.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:10:13.844+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:10:13.844+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:09:00+00:00, run_after=2024-11-08 15:10:00+00:00
+[2024-11-08T15:10:13.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.103 seconds
+[2024-11-08T15:10:44.558+0000] {processor.py:186} INFO - Started process (PID=5074) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:10:44.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:10:44.560+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:10:44.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:10:44.636+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:10:44.690+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:10:44.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:10:44.718+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:10:44.718+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:09:00+00:00, run_after=2024-11-08 15:10:00+00:00
+[2024-11-08T15:10:44.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.188 seconds
+[2024-11-08T15:11:15.408+0000] {processor.py:186} INFO - Started process (PID=5380) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:11:15.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:11:15.416+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:11:15.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:11:15.436+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:11:15.467+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:11:15.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:11:15.503+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:11:15.503+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:10:00+00:00, run_after=2024-11-08 15:11:00+00:00
+[2024-11-08T15:11:15.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.133 seconds
+[2024-11-08T15:11:46.325+0000] {processor.py:186} INFO - Started process (PID=5706) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:11:46.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:11:46.331+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:11:46.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:11:46.350+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:11:46.371+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:11:46.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:11:46.398+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:11:46.398+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:10:00+00:00, run_after=2024-11-08 15:11:00+00:00
+[2024-11-08T15:11:46.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.111 seconds
+[2024-11-08T15:12:16.546+0000] {processor.py:186} INFO - Started process (PID=6012) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:12:16.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:12:16.553+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:12:16.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:12:16.576+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:12:16.593+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:12:16.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:12:16.625+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:12:16.625+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:11:00+00:00, run_after=2024-11-08 15:12:00+00:00
+[2024-11-08T15:12:16.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.105 seconds
+[2024-11-08T15:12:47.295+0000] {processor.py:186} INFO - Started process (PID=6324) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:12:47.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:12:47.302+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:12:47.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:12:47.319+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:12:47.346+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:12:47.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:12:47.377+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:12:47.377+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:11:00+00:00, run_after=2024-11-08 15:12:00+00:00
+[2024-11-08T15:12:47.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.114 seconds
+[2024-11-08T15:13:17.565+0000] {processor.py:186} INFO - Started process (PID=6635) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:13:17.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:13:17.577+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:13:17.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:13:17.607+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:13:17.652+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:13:17.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:13:17.694+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:13:17.693+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:12:00+00:00, run_after=2024-11-08 15:13:00+00:00
+[2024-11-08T15:13:17.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.172 seconds
+[2024-11-08T15:13:47.846+0000] {processor.py:186} INFO - Started process (PID=6974) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:13:47.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:13:47.849+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:13:47.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:13:47.866+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:13:47.882+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:13:47.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:13:47.903+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:13:47.903+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:12:00+00:00, run_after=2024-11-08 15:13:00+00:00
+[2024-11-08T15:13:47.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.098 seconds
+[2024-11-08T15:14:18.727+0000] {processor.py:186} INFO - Started process (PID=7297) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:14:18.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:14:18.733+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:14:18.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:14:18.750+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:14:18.764+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:14:18.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:14:18.781+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:14:18.781+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:13:00+00:00, run_after=2024-11-08 15:14:00+00:00
+[2024-11-08T15:14:18.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.078 seconds
+[2024-11-08T15:14:48.899+0000] {processor.py:186} INFO - Started process (PID=7508) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:14:48.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:14:48.902+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:14:48.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:14:49.004+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:14:49.265+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:14:49.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:14:49.297+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:14:49.296+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:13:00+00:00, run_after=2024-11-08 15:14:00+00:00
+[2024-11-08T15:14:49.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.428 seconds
+[2024-11-08T15:15:19.454+0000] {processor.py:186} INFO - Started process (PID=7772) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:15:19.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:15:19.459+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:15:19.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:15:19.494+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:15:19.519+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:15:19.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:15:19.555+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:15:19.555+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:14:00+00:00, run_after=2024-11-08 15:15:00+00:00
+[2024-11-08T15:15:19.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.135 seconds
+[2024-11-08T15:15:49.651+0000] {processor.py:186} INFO - Started process (PID=8078) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:15:49.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:15:49.658+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:15:49.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:15:49.691+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:15:49.713+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:15:49.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:15:49.740+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:15:49.740+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:14:00+00:00, run_after=2024-11-08 15:15:00+00:00
+[2024-11-08T15:15:49.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.121 seconds
+[2024-11-08T15:16:19.859+0000] {processor.py:186} INFO - Started process (PID=8389) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:16:19.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:16:19.867+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:16:19.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:16:19.932+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:16:19.952+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:16:19.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:16:19.992+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:16:19.991+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:15:00+00:00, run_after=2024-11-08 15:16:00+00:00
+[2024-11-08T15:16:20.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.195 seconds
+[2024-11-08T15:16:50.362+0000] {processor.py:186} INFO - Started process (PID=8694) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:16:50.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:16:50.364+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:16:50.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:16:50.398+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:16:50.484+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:16:50.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:16:50.497+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:16:50.497+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:15:00+00:00, run_after=2024-11-08 15:16:00+00:00
+[2024-11-08T15:16:50.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.159 seconds
+[2024-11-08T15:17:20.987+0000] {processor.py:186} INFO - Started process (PID=9000) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:17:20.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:17:20.993+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:17:20.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:17:21.015+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:17:21.034+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:17:21.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:17:21.051+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:17:21.051+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:16:00+00:00, run_after=2024-11-08 15:17:00+00:00
+[2024-11-08T15:17:21.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.104 seconds
+[2024-11-08T15:17:51.341+0000] {processor.py:186} INFO - Started process (PID=9310) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:17:51.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:17:51.343+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:17:51.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:17:51.366+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:17:51.372+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:17:51.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:17:51.436+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:17:51.435+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:16:00+00:00, run_after=2024-11-08 15:17:00+00:00
+[2024-11-08T15:17:51.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.137 seconds
+[2024-11-08T15:18:21.619+0000] {processor.py:186} INFO - Started process (PID=9642) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:18:21.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:18:21.627+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:18:21.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:18:21.698+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:18:21.937+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:18:21.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:18:21.980+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:18:21.980+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:17:00+00:00, run_after=2024-11-08 15:18:00+00:00
+[2024-11-08T15:18:22.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.407 seconds
+[2024-11-08T15:18:52.353+0000] {processor.py:186} INFO - Started process (PID=9948) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:18:52.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:18:52.356+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:18:52.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:18:52.390+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:18:52.423+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:18:52.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:18:52.454+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:18:52.454+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:17:00+00:00, run_after=2024-11-08 15:18:00+00:00
+[2024-11-08T15:18:52.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.126 seconds
+[2024-11-08T15:19:22.658+0000] {processor.py:186} INFO - Started process (PID=10264) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:19:22.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:19:22.665+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:19:22.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:19:22.722+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:19:22.735+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:19:22.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:19:22.777+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:19:22.777+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:18:00+00:00, run_after=2024-11-08 15:19:00+00:00
+[2024-11-08T15:19:22.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.141 seconds
+[2024-11-08T15:19:53.203+0000] {processor.py:186} INFO - Started process (PID=10570) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:19:53.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:19:53.207+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:19:53.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:19:53.253+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:19:53.261+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:19:53.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:19:53.290+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:19:53.290+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:18:00+00:00, run_after=2024-11-08 15:19:00+00:00
+[2024-11-08T15:19:53.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.114 seconds
+[2024-11-08T15:20:23.876+0000] {processor.py:186} INFO - Started process (PID=10875) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:20:23.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:20:23.882+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:20:23.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:20:23.928+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:20:24.039+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:20:24.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:20:24.049+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:20:24.049+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:19:00+00:00, run_after=2024-11-08 15:20:00+00:00
+[2024-11-08T15:20:24.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.196 seconds
+[2024-11-08T15:20:54.599+0000] {processor.py:186} INFO - Started process (PID=11181) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:20:54.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:20:54.602+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:20:54.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:20:54.638+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:20:54.670+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:20:54.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:20:54.710+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:20:54.710+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:19:00+00:00, run_after=2024-11-08 15:20:00+00:00
+[2024-11-08T15:20:54.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.141 seconds
+[2024-11-08T15:21:24.903+0000] {processor.py:186} INFO - Started process (PID=11487) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:21:24.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:21:24.907+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:21:24.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:21:24.935+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:21:24.943+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:21:24.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:21:24.962+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:21:24.962+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:20:00+00:00, run_after=2024-11-08 15:21:00+00:00
+[2024-11-08T15:21:24.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.093 seconds
+[2024-11-08T15:21:55.627+0000] {processor.py:186} INFO - Started process (PID=11792) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:21:55.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:21:55.631+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:21:55.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:21:55.669+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:21:55.827+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:21:55.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:21:55.839+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:21:55.839+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:20:00+00:00, run_after=2024-11-08 15:21:00+00:00
+[2024-11-08T15:21:55.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.235 seconds
+[2024-11-08T15:22:26.708+0000] {processor.py:186} INFO - Started process (PID=12099) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:22:26.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:22:26.715+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:22:26.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:22:26.744+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:22:26.758+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:22:26.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:22:26.775+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:22:26.775+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:21:00+00:00, run_after=2024-11-08 15:22:00+00:00
+[2024-11-08T15:22:26.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.093 seconds
+[2024-11-08T15:22:57.680+0000] {processor.py:186} INFO - Started process (PID=12405) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:22:57.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:22:57.683+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:22:57.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:22:57.723+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:22:57.733+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:22:57.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:22:57.762+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:22:57.762+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:21:00+00:00, run_after=2024-11-08 15:22:00+00:00
+[2024-11-08T15:22:57.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.108 seconds
+[2024-11-08T15:23:27.825+0000] {processor.py:186} INFO - Started process (PID=12713) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:23:27.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:23:27.826+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:23:27.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:23:27.838+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:23:27.905+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:23:27.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:23:27.914+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:23:27.913+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:22:00+00:00, run_after=2024-11-08 15:23:00+00:00
+[2024-11-08T15:23:27.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.099 seconds
+[2024-11-08T15:23:58.091+0000] {processor.py:186} INFO - Started process (PID=13017) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:23:58.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:23:58.092+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:23:58.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:23:58.106+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:23:58.120+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:23:58.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:23:58.134+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:23:58.134+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:22:00+00:00, run_after=2024-11-08 15:23:00+00:00
+[2024-11-08T15:23:58.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.057 seconds
+[2024-11-08T15:34:40.473+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:34:40.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:34:40.489+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:34:40.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:34:40.646+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:34:41.555+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:34:41.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:34:41.648+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:34:41.648+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:33:00+00:00, run_after=2024-11-08 15:34:00+00:00
+[2024-11-08T15:34:41.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 1.311 seconds
+[2024-11-08T15:35:21.193+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:35:21.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:35:21.197+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:35:21.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:35:21.211+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:35:21.221+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:35:21.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:35:21.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.070 seconds
+[2024-11-08T15:35:52.203+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:35:52.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:35:52.205+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:35:52.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:35:52.268+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:35:52.914+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:35:52.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:35:53.039+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:35:53.038+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:35:00+00:00, run_after=2024-11-08 15:36:00+00:00
+[2024-11-08T15:35:53.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.881 seconds
+[2024-11-08T15:36:28.023+0000] {processor.py:186} INFO - Started process (PID=1074) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:36:28.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:36:28.036+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:36:28.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:36:28.073+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:36:28.105+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:36:28.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:36:28.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.234 seconds
+[2024-11-08T15:37:00.760+0000] {processor.py:186} INFO - Started process (PID=1270) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:37:00.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:37:00.766+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:37:00.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:37:00.787+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:37:01.158+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:37:01.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:37:01.180+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:37:01.179+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:36:00+00:00, run_after=2024-11-08 15:37:00+00:00
+[2024-11-08T15:37:01.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.447 seconds
+[2024-11-08T15:37:42.486+0000] {processor.py:186} INFO - Started process (PID=1562) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:37:42.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:37:42.491+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:37:42.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:37:42.520+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:37:42.539+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:37:42.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:37:42.576+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:37:42.576+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:36:00+00:00, run_after=2024-11-08 15:37:00+00:00
+[2024-11-08T15:37:42.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.113 seconds
+[2024-11-08T15:38:14.180+0000] {processor.py:186} INFO - Started process (PID=1863) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:38:14.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:38:14.191+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:38:14.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:38:14.214+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:38:14.261+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:38:14.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:38:14.328+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:38:14.327+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:37:00+00:00, run_after=2024-11-08 15:38:00+00:00
+[2024-11-08T15:38:14.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.199 seconds
+[2024-11-08T15:38:47.282+0000] {processor.py:186} INFO - Started process (PID=2171) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:38:47.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:38:47.284+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:38:47.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:38:47.343+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:38:47.389+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:38:47.389+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:38:47.447+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:38:47.445+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:37:00+00:00, run_after=2024-11-08 15:38:00+00:00
+[2024-11-08T15:38:47.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.194 seconds
+[2024-11-08T15:39:18.588+0000] {processor.py:186} INFO - Started process (PID=2471) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:39:18.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:39:18.608+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:39:18.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:39:18.695+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:39:18.765+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:39:18.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:39:18.852+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:39:18.851+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:38:00+00:00, run_after=2024-11-08 15:39:00+00:00
+[2024-11-08T15:39:18.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.327 seconds
+[2024-11-08T15:40:49.831+0000] {processor.py:186} INFO - Started process (PID=2783) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:40:49.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:40:49.910+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:40:49.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:40:50.109+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:40:50.373+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:40:50.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:40:50.639+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:40:50.638+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:39:00+00:00, run_after=2024-11-08 15:40:00+00:00
+[2024-11-08T15:40:50.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 1.021 seconds
+[2024-11-08T15:41:21.557+0000] {processor.py:186} INFO - Started process (PID=3096) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:41:21.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:41:21.590+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:41:21.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:41:21.675+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:41:21.724+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:41:21.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:41:21.774+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:41:21.774+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:40:00+00:00, run_after=2024-11-08 15:41:00+00:00
+[2024-11-08T15:41:21.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.262 seconds
+[2024-11-08T15:41:52.171+0000] {processor.py:186} INFO - Started process (PID=3415) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:41:52.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:41:52.173+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:41:52.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:41:52.183+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:41:52.196+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:41:52.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:41:52.207+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:41:52.207+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:40:00+00:00, run_after=2024-11-08 15:41:00+00:00
+[2024-11-08T15:41:52.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.046 seconds
+[2024-11-08T15:42:22.992+0000] {processor.py:186} INFO - Started process (PID=3720) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:42:22.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:42:22.994+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:42:22.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:42:23.017+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:42:23.053+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:42:23.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:42:23.091+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:42:23.091+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:41:00+00:00, run_after=2024-11-08 15:42:00+00:00
+[2024-11-08T15:42:23.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.132 seconds
+[2024-11-08T15:42:53.753+0000] {processor.py:186} INFO - Started process (PID=4029) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:42:53.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:42:53.755+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:42:53.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:42:53.768+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:42:53.783+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:42:53.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:42:53.807+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:42:53.807+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:41:00+00:00, run_after=2024-11-08 15:42:00+00:00
+[2024-11-08T15:42:53.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.067 seconds
+[2024-11-08T15:43:23.960+0000] {processor.py:186} INFO - Started process (PID=4339) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:43:23.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:43:23.977+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:43:23.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:43:24.047+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:43:24.104+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:43:24.103+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:43:24.143+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:43:24.142+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:42:00+00:00, run_after=2024-11-08 15:43:00+00:00
+[2024-11-08T15:43:24.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.248 seconds
+[2024-11-08T15:43:54.982+0000] {processor.py:186} INFO - Started process (PID=4649) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:43:54.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:43:54.983+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:43:54.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:43:54.997+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:43:55.019+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:43:55.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:43:55.047+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:43:55.047+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:42:00+00:00, run_after=2024-11-08 15:43:00+00:00
+[2024-11-08T15:43:55.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.085 seconds
+[2024-11-08T15:44:26.005+0000] {processor.py:186} INFO - Started process (PID=4961) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:44:26.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:44:26.007+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:44:26.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:44:26.025+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:44:26.047+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:44:26.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:44:26.073+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:44:26.073+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:43:00+00:00, run_after=2024-11-08 15:44:00+00:00
+[2024-11-08T15:44:26.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.085 seconds
+[2024-11-08T15:44:56.699+0000] {processor.py:186} INFO - Started process (PID=5269) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:44:56.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:44:56.701+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:44:56.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:44:56.713+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:44:56.732+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:44:56.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:44:56.755+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:44:56.755+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:43:00+00:00, run_after=2024-11-08 15:44:00+00:00
+[2024-11-08T15:44:56.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.073 seconds
+[2024-11-08T15:45:27.814+0000] {processor.py:186} INFO - Started process (PID=5583) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:45:27.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:45:27.815+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:45:27.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:45:27.838+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:45:27.861+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:45:27.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:45:27.886+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:45:27.886+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:44:00+00:00, run_after=2024-11-08 15:45:00+00:00
+[2024-11-08T15:45:27.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.094 seconds
+[2024-11-08T15:45:58.765+0000] {processor.py:186} INFO - Started process (PID=5889) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:45:58.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:45:58.768+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:45:58.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:45:58.782+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:45:58.800+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:45:58.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:45:58.826+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:45:58.826+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:44:00+00:00, run_after=2024-11-08 15:45:00+00:00
+[2024-11-08T15:45:58.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.073 seconds
+[2024-11-08T15:46:29.613+0000] {processor.py:186} INFO - Started process (PID=6204) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:46:29.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:46:29.615+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:46:29.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:46:29.628+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:46:29.652+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:46:29.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:46:29.683+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:46:29.683+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:45:00+00:00, run_after=2024-11-08 15:46:00+00:00
+[2024-11-08T15:46:29.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.090 seconds
+[2024-11-08T15:47:00.221+0000] {processor.py:186} INFO - Started process (PID=6510) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:47:00.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:47:00.225+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:47:00.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:47:00.249+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:47:00.277+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:47:00.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:47:00.313+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:47:00.312+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:46:00+00:00, run_after=2024-11-08 15:47:00+00:00
+[2024-11-08T15:47:00.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.126 seconds
+[2024-11-08T15:47:31.087+0000] {processor.py:186} INFO - Started process (PID=6825) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:47:31.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:47:31.089+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:47:31.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:47:31.109+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:47:31.159+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:47:31.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:47:31.187+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:47:31.186+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:46:00+00:00, run_after=2024-11-08 15:47:00+00:00
+[2024-11-08T15:47:31.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.124 seconds
+[2024-11-08T15:48:01.442+0000] {processor.py:186} INFO - Started process (PID=7133) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:48:01.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:48:01.444+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:48:01.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:48:01.470+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:48:01.521+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:48:01.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:48:01.570+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:48:01.569+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:47:00+00:00, run_after=2024-11-08 15:48:00+00:00
+[2024-11-08T15:48:01.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.159 seconds
+[2024-11-08T15:48:31.848+0000] {processor.py:186} INFO - Started process (PID=7446) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:48:31.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:48:31.850+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:48:31.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:48:31.867+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:48:31.892+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:48:31.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:48:31.922+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:48:31.922+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:47:00+00:00, run_after=2024-11-08 15:48:00+00:00
+[2024-11-08T15:48:31.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.094 seconds
+[2024-11-08T15:49:02.123+0000] {processor.py:186} INFO - Started process (PID=7757) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:49:02.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:49:02.124+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:49:02.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:49:02.144+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:49:02.163+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:49:02.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:49:02.184+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:49:02.184+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:48:00+00:00, run_after=2024-11-08 15:49:00+00:00
+[2024-11-08T15:49:02.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.086 seconds
+[2024-11-08T15:49:32.813+0000] {processor.py:186} INFO - Started process (PID=8066) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:49:32.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:49:32.815+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:49:32.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:49:32.835+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:49:32.858+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:49:32.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:49:32.886+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:49:32.886+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:48:00+00:00, run_after=2024-11-08 15:49:00+00:00
+[2024-11-08T15:49:32.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.095 seconds
+[2024-11-08T15:50:03.482+0000] {processor.py:186} INFO - Started process (PID=8378) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:50:03.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:50:03.484+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:50:03.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:50:03.497+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:50:03.520+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:50:03.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:50:03.546+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:50:03.546+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:49:00+00:00, run_after=2024-11-08 15:50:00+00:00
+[2024-11-08T15:50:03.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.083 seconds
+[2024-11-08T15:50:33.796+0000] {processor.py:186} INFO - Started process (PID=8687) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:50:33.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:50:33.799+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:50:33.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:50:33.821+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:50:33.843+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:50:33.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:50:33.869+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:50:33.869+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:49:00+00:00, run_after=2024-11-08 15:50:00+00:00
+[2024-11-08T15:50:33.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.095 seconds
+[2024-11-08T15:51:04.471+0000] {processor.py:186} INFO - Started process (PID=8999) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:51:04.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:51:04.472+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:51:04.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:51:04.487+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:51:04.511+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:51:04.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:51:04.538+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:51:04.538+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:50:00+00:00, run_after=2024-11-08 15:51:00+00:00
+[2024-11-08T15:51:04.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.090 seconds
+[2024-11-08T15:51:35.628+0000] {processor.py:186} INFO - Started process (PID=9308) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:51:35.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:51:35.634+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:51:35.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:51:35.662+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:51:35.702+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:51:35.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:51:35.733+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:51:35.733+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:50:00+00:00, run_after=2024-11-08 15:51:00+00:00
+[2024-11-08T15:51:35.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.145 seconds
+[2024-11-08T15:52:06.347+0000] {processor.py:186} INFO - Started process (PID=9620) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:52:06.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:52:06.350+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:52:06.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:52:06.362+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:52:06.380+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:52:06.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:52:06.403+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:52:06.403+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:51:00+00:00, run_after=2024-11-08 15:52:00+00:00
+[2024-11-08T15:52:06.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.076 seconds
+[2024-11-08T15:52:38.036+0000] {processor.py:186} INFO - Started process (PID=9916) to work on /opt/airflow/dags/test-4.py
+[2024-11-08T15:52:38.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test-4.py for tasks to queue
+[2024-11-08T15:52:38.037+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:52:38.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test-4.py
+[2024-11-08T15:52:38.046+0000] {processor.py:925} INFO - DAG(s) 'strata-lab-1-v03' retrieved from /opt/airflow/dags/test-4.py
+[2024-11-08T15:52:38.058+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:52:38.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T15:52:38.074+0000] {logging_mixin.py:190} INFO - [2024-11-08T15:52:38.073+0000] {dag.py:4180} INFO - Setting next_dagrun for strata-lab-1-v03 to 2024-11-08 15:51:00+00:00, run_after=2024-11-08 15:52:00+00:00
+[2024-11-08T15:52:38.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test-4.py took 0.059 seconds
