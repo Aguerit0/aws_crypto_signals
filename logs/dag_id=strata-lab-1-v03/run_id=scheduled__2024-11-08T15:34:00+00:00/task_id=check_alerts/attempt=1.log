@@ -1,3 +1,0 @@
-[2024-11-08T15:35:31.758+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
-[2024-11-08T15:35:31.777+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: strata-lab-1-v03.check_alerts scheduled__2024-11-08T15:34:00+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'fetch_and_calculate_indicators'}
-[2024-11-08T15:35:31.778+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run
